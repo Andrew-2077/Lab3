@@ -47,7 +47,7 @@ namespace Lab3
             bool result = service.MakeSongs(song);
             if (result)
             {
-                MessageBox.Show("Success!");
+                MessageBox.Show("Успешно!");
             }
             else
             {
