@@ -66,6 +66,7 @@ namespace Lab3
             bool res = Validate();
             if (res)
             {
+                //sinService.GetType();
                 sinService.Save();
             }
         }
